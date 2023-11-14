@@ -3,7 +3,7 @@ name: Sync to Upstream
 on:
   push:
     branches:
-      - master
+      - fork
   schedule:
     - cron:  '*/1 * * * *'
   workflow_dispatch:
