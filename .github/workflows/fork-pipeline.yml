@@ -6,8 +6,7 @@ on:
       - fork
   schedule:
     #  cron for every monday
-    - cron: 
-    # - cron:  '0 0 * * 1'
+    - cron:  '0 0 * * 1'
   workflow_dispatch:
 
 jobs:
