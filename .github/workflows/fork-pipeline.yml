@@ -31,7 +31,7 @@ jobs:
       with:
         upstream_repository: solidnerd/docker-bookstack
         upstream_branch: master
-        target_branch: master
+        target_branch: fork
         target_repo_token: ${{ secrets.TOKEN }}
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
